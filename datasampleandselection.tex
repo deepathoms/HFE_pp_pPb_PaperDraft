@@ -1,0 +1,84 @@
+\section{Experimental apparatus and data sample}\label{sec:datasampleandselection}
+
+The ALICE apparatus consists of a central barrel, covering the pseudorapidity region $|\eta| < 0.9$, a muon
+spectrometer with $-4 < \eta < -2.5$ coverage, and forward- and backward-pseudorapidity detectors employed for triggering, background rejection, and event characterisation. A complete description of the
+detector and an overview of its performance are presented in \cite{Aamodt:2008zz, Abelev:2014ffa}. 
+
+The central-barrel detectors used in the analysis presented in this paper, employed for charged-particle reconstruction and electron identification at midrapidity, are the Inner Tracking System (ITS), the Time Projection Chamber (TPC), the Time-Of-Flight detector (TOF), and the Electromagnetic Calorimeters (EMCal and DCal). They are embedded in a large solenoidal magnet that provides a magnetic field parallel to the beams axis. The ITS consists of six layers of silicon detectors, with the innermost two composed of Silicon Pixel Detectors (SPD). The ITS is used to reconstruct the primary vertex and to track charged particles.  The SPD is also used to measure the charged-particle pseudorapidity density at midrapidity. The TPC is the main tracking detector of the central barrel. Moreover it enables charged-particle
+ identification via the measurement of the particle specific energy loss (d$E$/d$x$) in the detector gas. Additional information for particle identification is provided by the TOF, via the measurement of the charged-particle flight time from the interaction point to the detector. The EMCal and DCal detectors ~\cite{Cortese:1121574, Allen:2010stl} are layered lead-scintillator sampling electromagnetic calorimeters that cover different acceptances. The EMCal covers $|\eta| < 0.7$ in pseudorapidity and $\Delta\varphi = 107^{\circ}$ in azimuth. The DCal is located azimuthally opposite to the EMCal covering $0.22 < |\eta| < 0.7$ and $\Delta\varphi = 60^{\circ}$ plus $|\eta| < 0.7$ and $\Delta\varphi = 7^{\circ}$. For the remaining part of the paper, EMCal and DCal will be together referred to as EMCal, as they are part of the same detector system. The smallest segmentation of the EMCal is a tower, which has a dimension of $6 \times 6$~cm ($0.0143 \times 0.0143$~rad) in its base placed in the $\eta \times \phi$ direction. 
+The electromagnetic calorimeters are used for electron identification and for triggering on rare events with high momentum particles in its acceptance. 
+
+Two scintillator arrays (V0) placed on each side of the interaction point (with pseudorapidity coverage $2.8 < \eta < 5.1$ and $-3.7 < \eta < -1.7$) are utilised for triggering and to reject offline beam-induced background events. The V0 detectors along with two T0 arrays, made of quartz Cherenkov counters and covering the acceptance $4.6 < \eta < 4.9$ and $-3.3 < \eta < -3.0$, are  employed to determine the luminosity. The Zero Degree Calorimeters (ZDC) located at 112.5 m on both sides of the interaction point are used to reject electromagnetic interactions and beam-induced background in \pPb collisions.
+
+The results presented in this paper were obtained using data recorded by ALICE during the LHC Run 2 data taking period from 2016 to 2018 for pp collisions at $\sqrt{s}=13$ TeV and in 2016 for \pPb collisions at $\sqrt{s_{\rm{NN}}}=8.16$ TeV. The nominal magnetic field, provided by the solenoid magnet in which the central barrel detectors are placed, is 0.5 T, parallel to the beams, and is used for recording p--Pb data and most of the pp data. One run period of pp collisions collected in 2018 were recorded with a reduced magnetic field of 0.2 T (will be referred to as low B dataset in the followings sections) allowing to extend the measurement of electrons to lower \pt upto 0.2 \GeVc.
+In p--Pb collisions, the $\sqrt{s_{\rm{NN}}}=8.16$ TeV energy was obtained by delivering proton and lead beams with energies of 6.5 TeV and 2.56 TeV per nucleon, respectively. Due to this asymmetry of the beam energy per nucleon, the proton–nucleon center-of-mass rapidity frame is shifted by $\Delta y = 0.465$ in the direction of the proton beam. 
+
+Events used in the analyses are obtained using the Minimum Bias (MB) trigger provided by the V0 detector, and two high-energy event triggers based on the energy deposited in the Electromagnetic calorimeter. The MB trigger condition requires coincident signal in both scintillator arrays of the V0 detector. The EMCal trigger is based on the sum of energy in a sliding window of $4\times4$ towers above a given threshold. The pp dataset was collected with EMCal triggers with energy thresholds of about 4~GeV~(EG2) and 10~GeV~(EG1). For the p--Pb data set, the EG2 threshold was set to 5.5 GeV and the EG1 threshold was set to 8 GeV. 
+
+In order to obtain a uniform acceptance of the detectors, only events with a reconstructed primary vertex within $\pm10$ cm from the centre of the detector along the beam line (\zvertex) were considered for both pp and p--Pb collisions. The number of selected events in pp and p--Pb collisions for different triggers and the corresponding integrated luminosities~\cite{ALICE-PUBLIC-2016-002} are listed in Table~\ref{table:EventStat}. Pile-up events %, whose probability was below {\color{blue} xx\%} ({\color{blue} yy\%}) in pp collisions (p--Pb collisions), 
+were rejected using an algorithm based on track segments, reconstructed with the SPD, to detect multiple primary vertices. %The remaining undetected pile-up events are a negligible fraction of the analysed sample.
+
+%{\color{red} what more can we say about pile up rejection?}.
+\begin{table}[!ht]
+\caption{Number of selected events in pp and \pPb collisions for different triggers and the corresponding integrated luminosities in pp collisions.}
+\small
+ \label{table:EventStat}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} |c|cccc|ccc}
+    \toprule
+     \multicolumn{}{c|}{}&
+       \multicolumn{4}{c|}{pp $\sqrt{\rm s}$=13 TeV}&
+       \multicolumn{3}{c}{\pPb $\sqrt{s_{\rm NN}}$=8.16 TeV}\\
+ \midrule 
+     \multicolumn{}{c|}{Magnetic field (T)}&
+       \multicolumn{1}{c|}{0.2}&
+       \multicolumn{3}{c|}{0.5}&
+       \multicolumn{3}{c}{0.5}\\
+\midrule 
+     \multicolumn{}{c|}{Trigger}&
+       \multicolumn{1}{c|}{MB}&
+       \multicolumn{1}{c}{MB}&
+       \multicolumn{1}{c}{EG2}&
+       \multicolumn{1}{c|}{EG1}&
+       \multicolumn{1}{c}{MB}&
+       \multicolumn{1}{c}{EG2}&
+       \multicolumn{1}{c}{EG1}\\
+       \midrule 
+       
+ \multicolumn{}{c|}{Number of events ($\times 10^{6}$)}&
+       \multicolumn{1}{c|}{438}&
+       \multicolumn{1}{c}{1755}&
+       \multicolumn{1}{c}{48}&
+       \multicolumn{1}{c|}{38}&
+       \multicolumn{1}{c}{18}&
+       \multicolumn{1}{c}{1}&
+       \multicolumn{1}{c}{0.3}\\
+\midrule 
+       
+ \multicolumn{}{c|}{Cross section (mb)}&
+    
+       \multicolumn{1}{c|}{{57.8 \pm 2.9}}&
+       \multicolumn{3}{c|}{{57.8 \pm 2.9}}&
+       \multicolumn{3}{c}{2100 \pm  60}\\
+\midrule
+ \multicolumn{}{c|}{Luminosity (nb$^{-1}$)}&
+       \multicolumn{1}{c|}{{7.58}}&
+       \multicolumn{1}{c}{{ 30.36}}&
+       \multicolumn{1}{c}{{0.83}}&
+       \multicolumn{1}{c|}{{0.66}}&
+       \multicolumn{1}{c}{{8.57$\pm$0.25}}&
+       \multicolumn{1}{c}{{4.76$\pm$0.14}}&
+       \multicolumn{1}{c}{{1.4$\pm$0.04}}\\
+  \multicolumn{}{c|}{}&
+       \multicolumn{1}{c|}{{$\pm$0.38}}&
+       \multicolumn{1}{c}{{$\pm$1.52}}&
+       \multicolumn{1}{c}{{$\pm$0.04}}&
+       \multicolumn{1}{c|}{{$\pm$0.03}}&
+       \multicolumn{1}{c}{{$\times$10^{-3}}}&
+       \multicolumn{1}{c}{{$\times$10^{-4}}}&
+       \multicolumn{1}{c}{{$\times$10^{-4}}}
+
+  \end{tabular*}
+ \bottomrule
+\end{table}
+
+

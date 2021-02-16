@@ -1,0 +1,491 @@
+\section{Systematics uncertainty studies}\label{sec:systematics}
+The systematic uncertainties on the measurements of invariant yield in pp and \pPb collisions were performed separately for TPC--TOF and TPC--EMCal analyses as a function of $p_{\rm{T}}$. The uncertainties on the invariant yield at low $p_{\rm{T}}$ obtained using the low B datatset were also performed independently. For the self-normalised yield measurements in pp and \pPb collisions, the systematic uncertainties were estimated directly on the self-normalised yield for each multiplicity class and $p_{\rm{T}}$ intervals. The different sources of systematic uncertainties are further discussed in this section and the assigned values are summarized in Tables~\ref{tab:SystematicSummaryTPCTOC}, ~\ref{tab:SystematicSummaryTPCEMCal} and ~\ref{tab:summarysystSN}
+
+The systematic uncertainty on the track selection were obtained by multiple variations of the selection criteria.  The minimum number of space points in the TPC and the hits in the ITS were varied to estimate the uncertainty. For low B sample in pp collisions, the uncertainty for the track matching between the ITS and TPC was 2$\%$ at $\pt \sim 0.2 \GeVc$ increasing upto $4.0\%$ at 4 \GeVc, whereas, the uncertainty for the track matching between the TPC and TOF detector was $4\%$ at $\pt \sim 0.2 \GeVc$ and $2\%$ at 4 \GeVc. In case of the nominal B dataset, uncertainty for the TPC--TOF track matching is  $\sim$2$\%$  and the ITS--TPC track matching is $\sim$3$\%$ in whole $\pt$ range. In the pPb analysis uncertainty for the TPC--TOF track matching is also observed to be  $\sim$2$\%$ in whole $\pt$ range.
+
+%{\color{cyan}2$\%$ for 0.2 $\leq$ $p_{\rm T}$ $\leq$ 1.0, 3$\%$ for 1.0 $\leq$ $p_{\rm T}$ $\leq$ 2.0 and 4.0$\%$ 2.0 $\leq$ $p_{\rm T}$ $\leq$ 4.0 GeV/c, and TPC and TOF as 4$\%$ for 0.2 $\leq$ $p_{\rm T}$ $\leq$ 0.3 and 2.0$\%$ 0.3 $\leq$ $p_{\rm T}$ $\leq$ 4.0 GeV/c.}
+
+The uncertainty on the reconstructed electron sample can originate from  potential biases in the procedure employed to select electron candidates and estimate the hadron contamination, and an uncertainty related to the electron reconstruction efficiency arising from imprecision in the description of the detector response in the MC. It was studied by varying the electron identification selection criteria using $n^{\rm{TPC}}_{\sigma,\rm{e}}$ in the TPC and $E/p$ and $\sigma^2_{\rm{long}}$ in the EMCal. Further the uncertainty on the estimation and removal of hadron contamination in the TPC--TOF analysis was obtained by varying the analytical function to parameterize the TPC ${\rm{d}}E/{{\rm{d}}x}$, which had negligible effect at low $p_{\rm{T}}$ upto 3.0 GeV/c. For the TPC--EMCal analysis, the scaling region of the hadron $E/p$ was varied between 0.2 and 0.7, found to be negligible at low $p_{\rm{T}}$ upto 20 GeV/$c$ with a maximum value of $5\%$ at 35 GeV/$c$.
+
+The uncertainty on the subtraction of photonic electrons is related to the efficiency of finding partner electron and was studied by varying the selection for partner tracks, with the number of space points in the TPC cluster and minimum $p_{\rm{T}}$, and the invariant mass cut of di-electron pairs. The subtraction of Ke3 electrons decays in pp collisions for $p_{\rm{T}} < 0.5$ GeV$/c$ is affected by the uncertainty on the parameterization of the ratio of Ke3 to photonic electrons and was found to result in an uncertainty of 15\% at $p_{\rm{T}} = 0.2~\GeVc$ and negligible at $p_{\rm{T}}=0.5$ GeV$/c$. 
+
+The uncertainty on the contribution of electrons from W and Z decays was obtained by varying the parton distribution function from { CT10nlo\cite{Guzzi:2011sv} to CTEQ6l\cite{Pumplin:2002vw}} in the POWHEG event generator, and the resulting variation in the yield of electrons from heavy-flavour decays was found to be negligible. 
+
+The systematic uncertainty on trigger rejection factor was obtained by varying the fitting region of the trigger turn-on curve and also fitting it with a linear function in the plateau region. A systematic uncertainty of 3\% (3\%) in EG2 trigger and 8\% (4\%) in EG1 trigger was assigned in \pPb (pp) collisions.
+
+The systematic uncertainity on the measurement of the self-normalised yield in pp and \pPb collisions from all  the sources mentioned above were independently estimated and is summarized in Table~\ref{tab:summarysystSN}. As the geometrical acceptances, reconstruction efficiencies are independent of \dnchdeta in the measured multiplicity range, these corrections and their corresponding systematic uncertainties largely cancel in the ratio $\dndeta/\left<\dndeta\right>$, thus resulting in a lower systematics for self-normalised yield compared to the one for $p_{\rm{T}}$ spectra. 
+
+% TPC--TOF(B=0.2T) && TPC--TOF(B=0.5T) && TPC-EMC
+% 0.2-X && x-4 && 4-6 (MB) && 6-12 (EG2) && 12-36 (EG1)
+% && x-y\% && x-y\% && x-y\% && x-y\%
+The total systematic uncertainties on the $p_{\rm{T}}$ spectra and self-normalised yield were calculated by summing the different contributions in quadrature, as they are considered to be uncorrelated. 
+  
+
+\begin{table}[th!]
+ \centering
+ \caption{Sources of systematic uncertainties and its assigned values in pp collisions at 13 TeV for B = 0.2 T (0.2 $<p_{\rm T}$ (GeV/$c$) $<$ 0.5) and B = 0.5 T data sets with TPC--TOF (0.5 $<p_{\rm T}$ (GeV/$c$) $<$ 4) and TPC--EMCal (4 $<p_{\rm T}$ (GeV/$c$) $<$ 35) detectors. The values presented as a range corresponds to the the lowest and highest \pt bin. } %for low and normal magnetic field configuration.}
+  \resizebox{\textwidth}{!}{  
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}  l| ccc}
+    \toprule
+    {Observable} & { 0.2 $<p_{\rm T}$ (GeV/$c$) $<$ 0.5} & { 0.5 $<p_{\rm T}$ (GeV/$c$) $<$ 4} & { 4 $<p_{\rm T}$ (GeV/$c$) $<$ 35}\\
+        {} & {(low B, TPC--TOF)} & { (nominal B, TPC--TOF)} & { (nominal B, TPC-EMal)}\\
+
+\midrule
+\midrule
+{ Track selection } & {Negligible} & 1$\%$ & 3$\%$ \\
+\midrule
+{Electron Identification} & {5$\%$} &  {5$\%$ - Negligible}& 6\%- 12\% \\\midrule
+%\multirow{2}*{Photonic Electron} & {} &  & \\
+{Photonic Electron} & {20$\%$ -- 11$\%$} & 7\% - 1\%  &  Negligible\\
+{Selection} & {} &   &  \\\midrule  
+{Hadron contamination } & {Negligible} & Negligible - 2\%  &  Negligible -7\% \\\midrule  
+{ TPC--TOF matching} & { 4$\%$ -- 2$\%$} & 2\% & \\\midrule  
+{W/Z $\rightarrow$ e } & {-} &- &  Negligile\\ \midrule
+ {SPD hit requirement } & {25$\%$ -- 15$\%$} &  10\% - 3\% & { 5\% - Negligible }\\\midrule
+{Rejection Factor } & { -} & - & 3\%-4\% \\ \midrule
+{ITS--TPC matching } & { 2\%} & 3\%  &  3\%\\ \midrule
+{$\pi^{0}$, $\eta$ weights } & { 3\% -- 1$\%$} & - &  -\\
+\midrule
+{Ke3 subtraction } & {15\% -- 1$\%$} & - & - \\
+\midrule
+  \end{tabular*}
+  }
+   \label{tab:SystematicSummaryTPCTOC}
+\end{table}
+
+% \begin{table}[H]
+%  \centering
+%  \caption{Sources of systematic uncertainties and its assigned values in pp collisions at 13 TeV for B = 0.2 T and B = 0.5 T data sets.} %for low and normal magnetic field configuration.}
+%  \label{tab:SystematicSummaryTPCTOC}
+%   \resizebox{\textwidth}{!}{  
+%     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}  cc| cc|c|cc}
+%     \toprule
+%      \multicolumn{2}{l}{}
+%   & \multicolumn{2}{c}{Observable} &  \multicolumn{1}{c}{TPC--TOF(Low B)}&   \multicolumn{2}{c}{Normal B} \\
+% \midrule
+%   \multicolumn{2}{c}{\pt (\GeVc)}&\multicolumn{2}{c}{}
+%   & \multicolumn{1}{c}{0.2$-$4}& \multicolumn{1}{c}{0.5$-$4}& \multicolumn{1}{c}{4$-$30}\\
+  
+%   \midrule
+%      \multicolumn{2}{l|}{}
+%   & \multicolumn{2}{l|}{TPC Clusters ($\#$ crossed rows)} & \multicolumn{1}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+ 
+%       \multicolumn{2}{c|}{ Track  cuts}
+%   & \multicolumn{2}{c|}{TPC Clusters for PID}  & \multicolumn{1}{c}{Negligible}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{3.0$\%$}\\
+%     \multicolumn{2}{c|}{}
+%     & \multicolumn{2}{c|}{DCA$_{xy}$(cm),DCA$_{z}$(cm)}   & \multicolumn{1}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+   
+   
+%  \midrule  
+%      \multicolumn{2}{c|}{}
+%      & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{}& \multicolumn{1}{c}{5.0$\%$}& \multicolumn{1}{c}{6 (4--16 GeV/c)} \\
+%       \multicolumn{2}{c|}{PID cuts for}
+%      & \multicolumn{2}{c|}{$n{\rm ^{TPC}_{\sigma,e}}$ selection}  & \multicolumn{1}{c}{5$\%$(0.2 -- 2.0 GeV/c}& \multicolumn{1}{c}{(0.5 -- 1.0}& \multicolumn{1}{c}{12 (16--35 GeV/c)} \\
+     
+       
+%   \multicolumn{2}{c|}{ electron}   & \multicolumn{2}{c|}{$n{\rm ^{TOF}_{\sigma,e}}$ selection} &  \multicolumn{1}{c}{}& \multicolumn{1}{c}{ GeV/c)}& \multicolumn{1}{c}{} \\
+   
+%     \multicolumn{2}{c|}{identification}
+%      & \multicolumn{2}{c|}{E/p}  & \multicolumn{1}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%       \multicolumn{2}{c|}{}
+%      & \multicolumn{2}{c|}{Shower Shape}  & \multicolumn{1}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+   
+%   \midrule
+   
+   
+%     \multicolumn{2}{c|}{Photonic} 
+%  & \multicolumn{2}{c|}{Min. \pt (\GeVc) } &  \multicolumn{1}{c}{ 20$\%$ (0.2 -- 0.3 GeV/c)}& \multicolumn{1}{c}{-}& \multicolumn{1}{c}{-}\\
+%       \multicolumn{2}{c|}{background}
+%   & \multicolumn{2}{c|}{Associated TPC clusters}  & \multicolumn{1}{c}{15$\%$ (0.3 -- 0.4 GeV/c)}& \multicolumn{1}{c}{-}& \multicolumn{1}{c}{-} \\
+%     \multicolumn{2}{c|}{ selection}
+%     & \multicolumn{2}{c|}{Invariant mass (\rm{GeV}/$c^2$)}  & \multicolumn{1}{c}{11$\%$ (0.4 -- 0.5 GeV/c)}& \multicolumn{1}{c}{-}& \multicolumn{1}{c}{-} \\
+%      &   & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{ 7.0$\%$ (0.5 -- 0.9 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{-} \\
+%       &   & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{ 3.0$\%$ (0.9 -- 1.3 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{-} \\
+%     \midrule
+%       \multicolumn{2}{c|}{ } 
+%  & \multicolumn{2}{c|}{Hadron contamination} &  \multicolumn{1}{c}{ 2.0$\%$ (3.0 -- 4.0 GeV/c)}& \multicolumn{1}{c}{7(29-35)}& \multicolumn{1}{c}{7(29-35)} \\
+%   &   & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{-}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{-} \\
+%       \multicolumn{2}{c|}{Other}
+%   & \multicolumn{2}{c|}{TPC--TOF matching}  & \multicolumn{1}{c}{ 4.0$\%$ (0.2 -- 0.3 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%     &   & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{ 2.0$\%$ (0.3 -- 4.0 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{-} \\
+%      \multicolumn{2}{c|}{}
+%   & \multicolumn{2}{c|}{W/Z $\rightarrow$ e}  & \multicolumn{1}{c}{-}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{-} \\
+%  &   & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{-}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{-} \\
+%     \multicolumn{2}{l|}{}
+%     & \multicolumn{2}{c|}{SPD hit requirement} & \multicolumn{1}{c}{ 25$\%$ (0.2 -- 0.3 GeV/c)}& \multicolumn{1}{c}{10($<$1.5),3($>$1.5)}& \multicolumn{1}{c}{5($<16$)} \\
+%      &   & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{ 15$\%$ (0.3 -- 0.5 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{-} \\
+%       &   & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{ 5$\%$ (0.5 -- 2.5 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{-} \\
+%         \multicolumn{2}{l|}{}
+%     & \multicolumn{2}{c|}{ $\left|\eta\right|$ }  & \multicolumn{1}{c}{Negligible}& \multicolumn{1}{c}{-}& \multicolumn{1}{c}{-} \\
+%      &   & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{-} \\
+%         \multicolumn{2}{l|}{}
+%     & \multicolumn{2}{c|}{ Rejection Factor}  & \multicolumn{1}{c}{-}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{2(Re-check)} \\
+%   &  & \multicolumn{2}{c|}{ITS--TPC matching}  & \multicolumn{1}{c}{ 2.0$\%$ (0.2 -- 1.0 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%     &  & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{ 3.0$\%$ (1.0 -- 2.0 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%      &  & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{ 4.0$\%$ (2.0 -- 4.0 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%     &  & \multicolumn{2}{c|}{$\pi^{0}$, $\eta$ weights}  & \multicolumn{1}{c}{ 3.0$\%$ (0.2 -- 0.3 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%      &  & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{ 1.0$\%$ (0.3 -- 0.4 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%      &  & \multicolumn{2}{c|}{Ke3}  & \multicolumn{1}{c}{ 15$\%$ (0.2 -- 0.3 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%       &  & \multicolumn{2}{c|}{subtraction}  & \multicolumn{1}{c}{ 4.0$\%$ (0.3 -- 0.4 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%       &  & \multicolumn{2}{c|}{}  & \multicolumn{1}{c}{ 1.0$\%$ (0.4 -- 0.5 GeV/c)}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%  \midrule
+%   \multicolumn{2}{c}{}&\multicolumn{2}{c}{Total uncertainty}
+%   & \multicolumn{1}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{}\\
+%  \bottomrule
+%   \end{tabular*}
+%   }
+% \end{table}
+
+\begin{table}[h!]
+ \centering
+ \caption{Sources of systematic uncertainties and its assigned values in \pPb collisions at $\sqrtsNN =8.16$ TeV with TPC--TOF (0.5 $<p_{\rm T}$ (GeV/$c$) $<$ 4) and TPC--EMCal (4 $<p_{\rm T}$ (GeV/$c$) $<$ 26) detectors. The values presented as a range corresponds to the the lowest and highest \pt bin.
+ }
+  \resizebox{\textwidth}{!}{  
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}  l| cc}
+    \toprule
+    {Observable} & { 0.5 $<p_{\rm T}$ (GeV/$c$) $<$ 4} & { 3 $<p_{\rm T}$ (GeV/$c$) $<$ 26}\\
+    & (TPC--TOF) & (TPC--EMCal) \\
+\midrule
+\midrule
+{ Track selection } & 1$\%$ & 5\% - 1\% \\
+\midrule
+{Electron Identification} & 3\% - 1\% & 1\% - 5\%\\
+\midrule         
+{Photonic Electron Selection} & 7\% - 1\% &  Negligible \\
+ \midrule  
+{Hadron contamination } & Negligible & Negligible -5\% \\
+\midrule  
+{TPC--TOF matching} & 2\% &  \\
+\midrule  
+{W/Z $\rightarrow$ e } &- &  Negligible\\ \midrule
+ {SPD hit requirement } & 10\% - 3\% & 5\% - Negligible\\
+\midrule
+{Rejection Factor }& - & 3\% - 8\% \\ 
+\midrule
+{ITS--TPC matching }&2\%&2\% \\ 
+\midrule
+{$\pi^{0}$, $\eta$ weights } & - & - \\
+\midrule
+{Ke3 subtraction }&- &- \\
+\midrule
+  \end{tabular*}
+  }
+   \label{tab:SystematicSummaryTPCEMCal}
+\end{table}
+
+%\begin{table}[!ht]
+% \caption{Sources of systematic uncertainties and its assigned values in \pPb collisions at 8.16 TeV.}
+% \label{tab:SystematicSummaryTPCEMCal}
+% \resizebox{\textwidth}{!}{  
+%    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}  cc| cc|cc|cc}
+%    \toprule
+%     \multicolumn{2}{l}{}
+%   & \multicolumn{2}{c}{Observable} &  \multicolumn{4}{c}{systematics} \\
+%\midrule
+%  \multicolumn{2}{c}{\pt (\GeVc)}&\multicolumn{2}{c}{}
+%  & \multicolumn{2}{c}{0.5$-$5}& \multicolumn{2}{c}{4$-$26}\\
+%  \midrule
+%     \multicolumn{2}{l|}{}
+%   & \multicolumn{2}{l|}{TPC Clusters ($\#$ crossed rows) } & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%      \multicolumn{2}{c|}{ Track and PID cuts}
+%   & \multicolumn{2}{c|}{TPC Clusters for PID}  & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{}\\
+%    \multicolumn{2}{c|}{for}
+%    & \multicolumn{2}{c|}{DCA$_{xy}$(cm), DCA$_{z}$(cm)}   & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%    \multicolumn{2}{c|}{electron identification }
+%     & \multicolumn{2}{c|}{Number of ITS clusters}  & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%       \multicolumn{2}{c|}{}
+%     & \multicolumn{2}{c|}{$n{\rm ^{TPC}_{\sigma,e}}$ selection}  & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%   \multicolumn{2}{c|}{}   & \multicolumn{2}{c|}{$n{\rm ^{TOF}_{\sigma,e}}$ selection} &  \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%    \multicolumn{2}{c|}{}   & \multicolumn{2}{c|}{$E/p$}  & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%     \multicolumn{2}{c|}{}   & \multicolumn{2}{c|}{Shower shape}  & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%   \midrule
+%    \multicolumn{2}{c|}{Photonic} 
+% & \multicolumn{2}{c|}{Min. \pt (\GeVc) } &  \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{}\\
+%      \multicolumn{2}{c|}{background selection}
+%   & \multicolumn{2}{c|}{Associated TPC clusters}  & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%    \multicolumn{2}{c|}{}
+%    & \multicolumn{2}{c|}{Invariant mass (\rm{GeV}/$c^2$)}  & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%    \midrule
+%       \multicolumn{2}{c|}{ } 
+% & \multicolumn{2}{c|}{Hadron contamination} &  \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%      \multicolumn{2}{c|}{Other}
+%   & \multicolumn{2}{c|}{TPC--TOF matching}  & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%     \multicolumn{2}{c|}{}
+%   & \multicolumn{2}{c|}{W/Z $\rightarrow$ e}  & \multicolumn{2}{c}{-}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%   
+%    \multicolumn{2}{l|}{}
+%    & \multicolumn{2}{c|}{SPD hit requirement} & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+%        \multicolumn{2}{l|}{}
+%    & \multicolumn{2}{c|}{ $\left|\eta\right|$ }  & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{} \\
+% \midrule
+%  \multicolumn{2}{c}{}&\multicolumn{2}{c}{Total uncertainty}
+%  & \multicolumn{2}{c}{}& \multicolumn{1}{c}{}& \multicolumn{1}{c}{}\\
+% \bottomrule
+%  \end{tabular*}
+%  }
+%\end{table}
+% && x-y\% && x-y\% && x-y\% && x-y\%
+
+% \begin{table}[!ht]
+% \caption{Systematic uncertainty on self-normalized yield in pp collisions at 13 TeV and \pPb collisions at 8.16 TeV.}
+%  \label{tab:summarysystSN}
+%   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c|ccc|ccc}
+%     \toprule
+%      \multicolumn{1}{c|}{ }& 
+%       \multicolumn{3}{c|}{pp $\sqrt{\rm s}$ = 13 TeV}&
+%       \multicolumn{3}{c}{\pPb $\sqrt{s_{\rm NN}}$ = 8.16 TeV}\\
+%       %\cmidrule{lr}{2-6}
+%     \midrule
+%     \multicolumn{1}{c|}{ Multiplicity class} &
+   
+%   \multicolumn{1}{c}{I-III} & \multicolumn{1}{c}{IV-VII} & \multicolumn{1}{c|}{VII} & \multicolumn{1}{c}{I} & \multicolumn{1}{c}{III} & \multicolumn{1}{c}{V} \\
+%  \midrule
+%  \midrule
+
+%     \multirow{2}{*}{Tracking and} &
+%     \multirow{2}{*}{ 10$\%$} & \multirow{2}{*}{3$\%$} & \multirow{2}{*}{3$\%$} & \multirow{2}{*}{4$\%$}& \multirow{2}{*}{4$\%$}& \multicolumn{1}{c}{} \\
+%         \multirow{2}{*}{for} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{}& \multirow{2}{*}{}& \multicolumn{1}{c}{} \\
+%             \multirow{2}{*}{electron identification} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{}& \multirow{2}{*}{}& \multicolumn{1}{c}{} \\
+%   &&&\\
+%   \midrule
+%     \multirow{2}{*}{} & \multirow{4}{*}{ 10$\%$} & \multirow{4}{*}{3$\%$} & \multirow{4}{*}{3$\%$} & \multirow{4}{*}{4$\%$}& \multirow{4}{*}{4$\%$}& \multicolumn{1}{c}{} \\
+%         \multirow{2}{*}{photonic} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{}& \multirow{2}{*}{}& \multicolumn{1}{c}{} \\
+%             \multirow{2}{*}{background subtraction} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{}& \multirow{2}{*}{}& \multicolumn{1}{c}{} \\          
+%      &&&\\
+     
+%   \midrule
+%     \multirow{2}{*}{} & \multirow{4}{*}{ 10$\%$} & \multirow{4}{*}{3$\%$} & \multirow{4}{*}{3$\%$} & \multirow{4}{*}{4$\%$}& \multirow{4}{*}{4$\%$}& \multicolumn{1}{c}{} \\
+%         \multirow{2}{*}{other} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{}& \multirow{2}{*}{}& \multicolumn{1}{c}{} \\
+%             \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{}& \multirow{2}{*}{}& \multicolumn{1}{c}{} \\          
+%      &&&\\ 
+     
+%   \bottomrule
+%   \end{tabular*}
+% \end{table}
+
+
+\begin{table}[h!]
+\centering
+\caption{Systematic uncertainty on self-normalized yield in pp collisions at 13 TeV and \pPb collisions at 8.16 TeV.  }
+ \resizebox{\textwidth}{!}{  
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c|c|ccc|ccc}
+    \toprule
+       \multicolumn{1}{c}{ }& \multicolumn{1}{c|}{ }& 
+      \multicolumn{6}{c}{\pt interval (\GeVc)}\\
+      \midrule
+     \multicolumn{1}{c}{ }& \multicolumn{1}{c|}{ }& 
+      \multicolumn{3}{c|}{pp $\sqrt{\rm s}$ = 13 TeV}&
+       \multicolumn{3}{c}{\pPb $\sqrt{s_{\rm NN}}$ = 8.16 TeV}\\
+      
+       %\cmidrule{lr}{2-6}
+    \midrule
+ 
+   \midrule
+\multicolumn{1}{c|}{} & 
+\multicolumn{1}{c|}{} &
+   \multicolumn{1}{c}{0.5-6} & \multicolumn{1}{c}{6-12} & \multicolumn{1}{c|}{15-30} & \multicolumn{1}{c}{0.5-6} & \multicolumn{1}{c}{6-8} & \multicolumn{1}{c}{14-26} \\
+   \multicolumn{1}{c|}{Observable} &
+   \multicolumn{1}{c|}{Multiplicity} &
+   \multicolumn{1}{c}{GeV/$c$} & \multicolumn{1}{c}{GeV/$c$} & \multicolumn{1}{c|}{GeV/$c$} & \multicolumn{1}{c}{GeV/$c$} & \multicolumn{1}{c}{GeV/$c$} & \multicolumn{1}{c}{GeV/$c$} \\
+ \midrule
+\multirow{2}{*}{}& \multirow{2}{*}{I} &
+\multirow{2}{*}{ Negligile }  &\multirow{2}{*}{2$\%$} & \multirow{2}{*}{2$\%$} & \multirow{2}{*}{Negligile}& \multirow{2}{*}{3$\%$}& \multirow{2}{*}{3$\%$} \\
+\multirow{2}{*}{Track Selection}& \multirow{2}{*}{III}  & \multirow{2}{*}{Negligile} & \multirow{2}{*}{2$\%$} & \multirow{2}{*}{2$\%$} & \multirow{2}{*}{Negligile}& \multirow{2}{*}{3$\%$}& \multirow{2}{*}{3$\%$} \\
+\multirow{2}{*}{}& \multirow{2}{*}{V}  & \multirow{2}{*}{Negligile} & \multirow{2}{*}{2$\%$} & \multirow{2}{*}{2$\%$} & \multirow{2}{*}{Negligile}& \multirow{2}{*}{4$\%$}& \multirow{2}{*}{4$\%$} \\
+[0.8ex]
+ \midrule
+\multirow{2}{*}{}& \multirow{2}{*}{I} &
+\multirow{2}{*}{ 1$\%$}  &\multirow{2}{*}{3$\%$} & \multirow{2}{*}{3$\%$} & \multirow{2}{*}{1$\%$}& \multirow{2}{*}{2$\%$}& \multirow{2}{*}{2$\%$} \\
+\multirow{2}{*}{Electron Identification}& \multirow{2}{*}{III}  & \multirow{2}{*}{1$\%$} & \multirow{2}{*}{3$\%$} & \multirow{2}{*}{3$\%$} & \multirow{2}{*}{1$\%$}& \multirow{2}{*}{2$\%$}& \multirow{2}{*}{2$\%$} \\
+\multirow{2}{*}{}& \multirow{2}{*}{V}  & \multirow{2}{*}{1$\%$} & \multirow{2}{*}{3$\%$} & \multirow{2}{*}{3$\%$} & \multirow{2}{*}{1$\%$}& \multirow{2}{*}{4$\%$}& \multirow{2}{*}{4$\%$} \\
+[0.8ex]
+ \midrule
+ \multirow{2}{*}{}& \multirow{2}{*}{I} &
+\multirow{2}{*}{ 1$\%$}  &\multirow{2}{*}{1$\%$} & \multirow{2}{*}{2$\%$} & \multirow{2}{*}{1$\%$}& \multirow{2}{*}{1$\%$}& \multirow{2}{*}{1$\%$} \\
+\multirow{2}{*}{Photonic Electron}& \multirow{2}{*}{III}  & \multirow{2}{*}{1$\%$} & \multirow{2}{*}{2$\%$} & \multirow{2}{*}{2$\%$} & \multirow{2}{*}{1$\%$}& \multirow{2}{*}{1$\%$}& \multirow{2}{*}{1$\%$} \\
+\multirow{2}{*}{}& \multirow{2}{*}{V}  & \multirow{2}{*}{1$\%$} & \multirow{2}{*}{2$\%$} & \multirow{2}{*}{2$\%$} & \multirow{2}{*}{1$\%$}& \multirow{2}{*}{1$\%$}& \multirow{2}{*}{1$\%$} \\
+[0.8ex]
+ \midrule
+ \multirow{2}{*}{}& \multirow{2}{*}{I} &
+\multirow{2}{*}{ 10$\%$}  &\multirow{2}{*}{6$\%$} & \multirow{2}{*}{14$\%$} & \multirow{2}{*}{10$\%$}& \multirow{2}{*}{2$\%$}& \multirow{2}{*}{10$\%$} \\
+\multirow{2}{*}{Other}& \multirow{2}{*}{III}  & \multirow{2}{*}{3$\%$} & \multirow{2}{*}{6$\%$} & \multirow{2}{*}{6$\%$} & \multirow{2}{*}{2$\%$}& \multirow{2}{*}{2$\%$}& \multirow{2}{*}{2$\%$} \\
+\multirow{2}{*}{ (SPD Hits)}& \multirow{2}{*}{V}  & \multirow{2}{*}{4$\%$} & \multirow{2}{*}{6$\%$} & \multirow{2}{*}{6$\%$} & \multirow{2}{*}{2$\%$}& \multirow{2}{*}{2$\%$}& \multirow{2}{*}{2$\%$} \\
+[0.8ex]
+ \midrule
+   \bottomrule
+  \end{tabular*}
+  }
+   \label{tab:summarysystSN}
+\end{table}
+
+%\subsection{pp, low B}
+%
+%\begin{table}[!ht]
+% \caption{Sources of systematic in analysis with TPC - TOF in \pt range \ptrange{0.2}{4} in pp at 13 TeV with Low B.}
+% \label{tab:SystematicSummaryTPCTOC}
+%  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} ccc|cc|cc}
+%    \toprule
+%     \multicolumn{2}{c}{Source of systematics}
+%   & \multicolumn{2}{c}{Observable} & \multicolumn{1}{c}{Default} & \multicolumn{2}{c}{Variation} \\
+%\midrule
+%     \multicolumn{2}{c}{ }
+%   & \multicolumn{2}{c}{TPC Clusters } & \multicolumn{1}{c}{$\geq$ 100} & \multicolumn{2}{c}{90, 95, 105, 110} \\
+%      \multicolumn{2}{c}{ Track and PID cuts}
+%   & \multicolumn{2}{c}{TPC Clusters for PID} & \multicolumn{1}{c}{$\geq$ 80} & \multicolumn{2}{c}{80, 85, 90, 95} \\
+%    \multicolumn{2}{c}{for}
+%    & \multicolumn{2}{c}{DCA$_{xy}$(cm), DCA$_{z}$(cm)} & \multicolumn{1}{c}{1, 2} & \multicolumn{2}{c}{(1.5, 3.5)  ,(1.8, 2.8)  ,(2.0, 3.0)  , 
+%(2.4, 3.2)} \\
+%       \multicolumn{2}{c}{electron identification }
+%     & \multicolumn{2}{c}{TPC n$\sigma$} &  \multicolumn{1}{c}{(-1,3)} & \multicolumn{2}{c}{(0.0,3), (-1.5,3), (-1,3.5), (-1,2)} \\
+%   \multicolumn{2}{c}{}   & \multicolumn{2}{c}{TOF n$\sigma$} & \multicolumn{1}{c}{(-3,3)} & \multicolumn{2}{c}{(-2,2), (-2.5, 2.5), (-3.5,3.5), (-4.0, 4.0)} \\
+%    \multicolumn{2}{c}{}   & \multicolumn{2}{c}{} & \multicolumn{1}{c}{} & \multicolumn{2}{c}{} \\
+%   \hline
+%    \multicolumn{2}{c}{Photonic} 
+% & \multicolumn{2}{c}{Min. \pt (\GeVc) } & \multicolumn{1}{c}{0.0} & \multicolumn{2}{c}{0.1, 0.12, 0.14} \\
+%      \multicolumn{2}{c}{background selection}
+%   & \multicolumn{2}{c}{Associated TPC clusters} & \multicolumn{1}{c}{$\geq$ 60} & \multicolumn{2}{c}{50, 70, 80, 90 } \\
+%    \multicolumn{2}{c}{}
+%    & \multicolumn{2}{c}{Invariant mass (\rm{GeV}/$c^2$)} & \multicolumn{1}{c}{$\leq$ 0.14} & \multicolumn{2}{c}{0.08,0.10,0.12,0.16} \\
+%     \hline
+%       \multicolumn{2}{c}{ } 
+% & \multicolumn{2}{c}{Hadron substraction} & \multicolumn{1}{c}{} & \multicolumn{2}{c}{different parametrization} \\
+%      \multicolumn{2}{c}{Other}
+%   & \multicolumn{2}{c}{Weight for $\pi^{0}$ and $\eta$} & \multicolumn{1}{c}{} & \multicolumn{2}{c}{Tilted up, Tilted down} \\
+%    \multicolumn{2}{c}{}
+%    & \multicolumn{2}{c}{SPD layer} & \multicolumn{1}{c}{kBoth} & \multicolumn{2}{c}{kAny, kFirst} \\
+%      \multicolumn{2}{c}{}
+%    & \multicolumn{2}{c}{ITS--TPC and TPC--TOF matching} & \multicolumn{1}{c}{} & \multicolumn{2}{c}{} \\
+%        \multicolumn{2}{c}{}
+%    & \multicolumn{2}{c}{ $\left|\eta\right|$ } & \multicolumn{1}{c}{$<$ 0.5} & \multicolumn{2}{c}{0.4, 0.6} \\
+% \bottomrule
+%  \end{tabular*}
+%\end{table}
+%
+%
+%\begin{table}
+%\caption{ Summary of values of the systematic uncertainties assigned at low B pp 13 TeV}
+%% title of Table
+%\centering
+%\begin{tabular}{c c} \hline
+%
+% Sources &\small Systematics \\ \hline
+% \hline
+% 
+% \small Inc.  \rule{0pt}{0.5cm} &  negligible \\
+% \small particle cuts& \\
+%& \\
+%
+%
+% \hline
+% TPC PID \rule{0pt}{0.5cm} &\small 5.0 $\%$ (0.2-2.0 GeV/c)  \\
+% 
+% 
+% \hline
+% \small Asso.  \rule{0pt}{0.5cm} &  \small 20.0 (0.2-0.3 GeV/c), 15.0 (0.3-0.4 TeV GeV/c), \\
+% \small particle cuts&\small 11.0 (0.4-0.5 GeV/c), 7.0 (0.5-0.9 GeV/c),  \\
+%&\small 3.0 (0.9-1.3 GeV/c), \\
+%
+%\hline
+%
+% \small Eta variation\rule{0pt}{0.5cm} & \small  negligible  \\
+%% \rule{0pt}{0.5cm} &\small  and 3.4 $\%$ (3.5-5.0 GeV/c). \\
+% \hline
+% \small  SPD req.\rule{0pt}{0.5cm} & \small 25 $\%$ (0.2-0.3), 15 $\%$ (0.3-0.5) and 5 $\%$ (0.5-2.5). \\
+%% \rule{0pt}{0.5cm} &\small  and 5 $\%$ (0.5-4.0 GeV/c). \\
+% \hline
+% \small hadron cont.\rule{0pt}{0.5cm} & \small  2 $\%$ (3.0 - 4.0 GeV/c) \\
+%   \hline
+% \small $\pi^{0}$, $\eta$ weights \rule{0pt}{0.5cm} &  \small 3$\%$ (0.2-0.3), 1$\%$ (0.3-0.4)  \\
+%   \hline
+%   
+%    \small Ke3 subtraction \rule{0pt}{0.5cm} &  \small 15$\%$ (0.2-0.3), 4$\%$ (0.3-0.4)  \\
+%     & \small  and 1$\%$ (0.4-0.5)  GeV/c  \\
+%   \hline
+%
+% \small TPC--TOF matching\rule{0pt}{0.5cm} & \small  2$\%$ beyond 0.3 GeV/c \\
+% & \small  and 4$\%$ between 0.2 to 0.3 GeV/c  \\
+%  \small ITS--TPC matching\rule{0pt}{0.5cm} & \small  2$\%$ in 0.2--1.0 GeV/c, 3$\%$ in 1.0--2.0 GeV/c \\
+% & \small  and 4$\%$ between 2 to 4 GeV/c  \\
+%   \hline
+%\end{tabular}
+%\label{table:sys13}
+%\end{table}
+%
+%\begin{table}[h!]
+%\caption{Summary of the total systematic uncertainties in low B 13 TeV analysis}
+%%\vglue4mm
+%\begin{center}
+%
+%%\begin{tabular}{lclc} \hline
+%\begin{tabular}{c c} \hline
+%
+% $p_{T}$ \rule{0pt}{0.3cm}& {Total systematic} \\ 
+%in GeV/c \rule{0pt}{0.3cm}& uncertainty ($\%$)\\ %\multicolumn{2}{c}{uncertainty ($\%$)}\\ 
+%% in GeV/c& cuts & cuts & variation & req. & cont. & in $\%$ \\ 
+%\hline
+%%& 7 TeV  13 TeV\\
+%\hline
+%\hline
+% 0.2-0.3 \rule{0pt}{0.3cm}   & 36 \\
+% 0.3-0.4 \rule{0pt}{0.3cm}   &22 \\
+% 0.4-0.5 \rule{0pt}{0.3cm}   &20 \\
+% 0.5-0.6 \rule{0pt}{0.3cm}  & 11 \\
+%0.6-0.7 \rule{0pt}{0.3cm}   & 10 \\
+%0.7-0.9\rule{0pt}{0.3cm}  & 9\\
+%0.9-1.0 \rule{0pt}{0.3cm}  & 8 \\
+%1.0-1.1 \rule{0pt}{0.3cm}   & 9\\
+%1.1-2.0 \rule{0pt}{0.3cm}   & 8\\
+%2.0-2.5\rule{0pt}{0.3cm}   &7\\
+%2.5-4.0\rule{0pt}{0.3cm}   & 5\\
+% [1ex]
+% \hline
+%\end{tabular}
+%\label{table_ts7}
+%\end{center}
+%\end{table}
+%
+%
+%\subsection{pp, normal B, TPC--EMCal}
+%{
+%
+%\begin{table}[h!]
+%	\centering
+%	\begin{tabular}{p{5cm}|c|c}
+%	  & {\color{purple} Standard Value }& {\color{purple} Variations}\\ \hline\hline
+%		ITS clusters & 3 &  2,4\\ \hline
+%		E/p cut & 0.85 (lower cut) & 0.9, 0.8, 0.75 \\ 
+%		&  1.2 (upper cut) &    1.15,  1.25 \\\hline
+%		M02 cut & 0.9 ($p_{\rm T} <$ 12 GeV/{\it c})& 0.8, 1.0\\
+%		& 0.7 ($p_{\rm T}>$ 12 GeV/{\it c})& 0.6, 0.8\\ \hline
+%		TPC nsigma & (-1,3) &  (-0.75,3), (-1.5,3)\\ 
+%		&  &   (-1,3.5)\\ \hline
+%		Pair Invariant Mass (GeV/${c^2}$ )& 0.14 &{  0.16 }\\ \hline
+%		Min Associated \pt  (GeV/{\it c}) & 0.10 &  0.2\\ \hline	Hits on SPD Layer & kANy & {   { kBoth} }\\ \hline	
+%		Hadron Scaling range & 0.5 $<E/p<$ 0.6  & Variation in range of fit\\ \hline
+%		Rejection Factor &    &   Changing the fit range and rebin histogram\\ \hline
+%	\end{tabular}
+%	\label{tab:BarlowNotPassedcuts}
+%	\caption{Cut variations used for systematics in pp at 13 TeV, that did not pass Barlow criteria }
+%\end{table}
+%
+%}
+%\begin{table}
+%		\centering
+%		\begin{tabular}{c|c|c|c|c|c|c|c}
+%			\pt (\gevc)& Track & e-ID (E/p, & Photonic& SPD & RF & Hadron & Total  \\
+%			& Cut & M02, n$\sigma$) &  cut & hits &  & Cont. &   \\\hline
+%			3-4   & 3 & 10 & - & 5 & - & - & 11\\\hline
+%			4-8   & 3 & 6 & - & 5 & - & - & 8 \\\hline
+%			8-10  & 3 & 2 & - & 5 & - & - & 5\\\hline
+%			10-16 & 3 & 6 & - & 5 & - & - & 8\\\hline
+%			16-20 & 3 & 12 & - & - & 2 & 1 & 13 \\\hline
+%			20-29 & 3 & 12 & - & - & 2 & 3 & 13  \\\hline
+%			29-35 & 3 & 12 & - & -  & 2 &7 & 14 \\\hline
+%		\end{tabular}
+%		\label{totalSyt}
+%		\caption{Total Value of systematics}
+%\end{table}%
+
+
+ 
+

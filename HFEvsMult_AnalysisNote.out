@@ -1,0 +1,29 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Experimental Apparatus}{}% 2
+\BOOKMARK [1][-]{section.3}{Analysis Framework and Event Selection}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Data Samples}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Monte Carlo Samples}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Trigger System}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Event Selection}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{EMCal correction framework}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Multiplicity Analysis}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Multiplicity Estimation}{section.4}% 10
+\BOOKMARK [3][-]{subsubsection.4.1.1}{SPD Tracklets Multiplicity}{subsection.4.1}% 11
+\BOOKMARK [3][-]{subsubsection.4.1.2}{V0M Multiplicity}{subsection.4.1}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Event multiplicity normalisation}{section.4}% 13
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Conversion from Ntracklets to dNch/d}{subsection.4.2}% 14
+\BOOKMARK [3][-]{subsubsection.4.2.2}{V0M Multiplicity Normalisation }{subsection.4.2}% 15
+\BOOKMARK [2][-]{subsection.4.3}{Trigger normalisation studies}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Heavy-Flavour Electron Identification}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Track selection}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Electron Identification}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.3}{Non-HFE reconstruction}{section.5}% 20
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Non-HFE reconstruction efficiency}{subsection.5.3}% 21
+\BOOKMARK [1][-]{section.6}{Heavy-Flavour Electron vs Multiplicity}{}% 22
+\BOOKMARK [2][-]{subsection.6.1}{Efficiencies as a function of multiplicity }{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.2}{Self-Normalised Yield HFE }{section.6}% 24
+\BOOKMARK [1][-]{section.7}{Systematics Studies}{}% 25
+\BOOKMARK [2][-]{subsection.7.1}{Cut Variation Systematics}{section.7}% 26
+\BOOKMARK [2][-]{subsection.7.2}{Systematic uncertainties in multiplicity sub-intervals}{section.7}% 27
+\BOOKMARK [2][-]{subsection.7.3}{Summary of Systematics}{section.7}% 28
+\BOOKMARK [1][-]{section.8}{Results and Summary}{}% 29

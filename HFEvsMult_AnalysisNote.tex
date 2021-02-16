@@ -1,0 +1,120 @@
+\documentclass[ALICE,manyauthors]{ALICE_analysis_notes}
+%\documentclass[ALICE,manyauthors]{ALICE_scientific_notes}
+%
+\usepackage{lineno}
+\usepackage{xspace}
+\usepackage{hyperref}
+\usepackage{rotating}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{amsfonts}
+\usepackage{makeidx}
+\usepackage{color}
+\usepackage{color}
+\pagestyle{headings}
+\usepackage{epstopdf}
+\usepackage[normalem]{ulem}
+\usepackage{afterpage}
+\usepackage{tabularx,booktabs}
+\usepackage{multirow}
+\usepackage{lineno}
+\usepackage{hyperref} 
+\usepackage{enumitem}
+\usepackage{braket}
+\usepackage{here}
+\usepackage[utf8]{inputenc}
+\usepackage[noadjust]{cite}
+
+\setlist[description]{%
+  topsep=5pt,               % space before start / after end of list
+  itemsep=5pt,               % space between items
+  %font={\bfseries\sffamily}, % set the label font
+  font={\bfseries\sffamily\color{blue}}, % if colour is needed
+  before={\color{blue!60!red}\itshape}
+}
+
+%%%
+%%%  Alias
+%%%
+
+\makeatletter
+    \setlength\@fptop{0\p@}
+\makeatother
+
+\input{commands.tex}
+
+%%%
+%%% end Alias
+%%%
+
+\linenumbers
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage[backend=biber,backref=false,
+%sorting=none,style=numeric,
+%isbn=false,doi=false,hyperref=true,
+%url=false,eprint=true,firstinits=true]{biblatex}
+%%%%% you can add multiple bib files containing your refrences %%%%%%%%%%%%
+%\addbibresource{refer.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usepackage[square,numbers,sort&compress]{natbib}
+
+\begin{document}
+%%%%%%%%%%%%% ptdr definitions %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+%
+
+\begin{titlepage}
+%
+\PHnumber{ALICE-2020-xxx} 
+\PHdate{\today}
+%
+%%% Put your own title + short title here:
+\title{ Inclusive and multiplicity dependent production of electrons from heavy-flavour hadron decays in pp and \pPb collisions}
+%\ShortTitle{}   
+\ShortTitle{electrons from heavy-flavour hadron decays in pp and \pPb collisions.}
+% appears on right page headers
+%
+%\author{Authors list to be filled}
+%\Collaboration{ Authors list to be filled }%
+\author{ALICE Collaboration$^{*}$}
+\ShortAuthor{ALICE Analysis Note 2017} % appears on left page headers, do not change
+%
+\begin{abstract}
+
+Heavy-flavour production at midrapidity is studied using electrons from heavy-flavour hadron decays in pp collisions at $\sqrt{s}=13$ TeV to precisely test perturbative QCD calculations, and to study effects from cold nuclear matter (CNM) in \pPb collisions at $\sqrt{s_{\rm{NN}}} = 8.16$ TeV. Furthermore, their production in-terms of self-normalized yield as a function of normalized charged-particle multiplicity, estimated at midrapidity, in pp and \pPb collisions is studied to investigate the role of multiple-parton interactions (MPI) and the interplay between hard and soft mechanism in particle production. The production cross section of electrons from heavy-flavour hadron decays measured in the transverse momentum (\pt) range from $0.2$ $< p_{\rm T} <$ $35$ GeV$/c$ in pp collisions at $\sqrt{s}=13$ TeV is compared with pQCD calculation. The nuclear modification factor of electrons from heavy-flavour hadron decays measured as a function of \pt in \pPb collisions at $\sqrt{s_{\rm{NN}}} = 8.16$ TeV in the range 0.5 $< p_{\rm T} <$ 26 GeV/$c$, is consistent with unity within the statistical and systematic uncertainties. The self-normalized yield in pp and \pPb collisions grows faster than linear with the normalized multiplicity. In pp collisions a strong \pt dependence is observed, where the yield of higher \pt electrons increases faster as a function of multiplicity compared to the one of lower \pt electron. The measurement in \pPb collisions shows a weaker \pt dependence within uncertainties. The self-normalized yield in pp collisions is compared with PYTHIA 8.2 Monte-Carlo simulations and with measurements of inclusive charged particles, D-mesons and J/$\psi$. In \pPb collisions, the self-normalized yield as a function of normalized charged-particle multiplicity is compared with D-mesons measurements. 
+
+%Heavy-flavour production studies in pp collisions, besides providing the necessary baseline for measurements in \PbPb collisions, constitute a precision test of perturbative QCD calculations. In complex systems such as \pPb collisions, it gives insights into the cold nuclear matter (CNM) effects. Furthermore, their production as a function of charged-particle multiplicity in pp and \pPb collisions provides insights into the role of multiple-parton interactions (MPI) and the interplay between hard and soft mechanism in particle production. In \pPb collisions, the production is also influenced by the concurrent multiple binary nucleon-nucleon collisions. 
+%In this paper, we will present the measurement of the yield of electrons from heavy-flavour hadron decays at midrapidity as a function of the transverse momentum and charged-particle multiplicity estimated at midrapidity (self-normalized yield) in pp collisions at \sqrts = 13 TeV and in \pPb collisions at \sqrtsNN = 8.16 \TeV.
+\\
+\\
+{\it Keywords:} Heavy-flavour electrons, nuclear modification factor, self-normalized yield, multiplicity, pp collisions, \pPb collisions
+
+\end{abstract}
+\end{titlepage}
+\input{introduction.tex}
+\input{datasampleandselection.tex}
+\input{multiplicityanalysis.tex}
+\input{heavyflavour.tex}
+\input{corrections.tex}
+\input{systematics.tex}
+%\input{ppReference.tex}
+\input{results.tex}
+%\input{ModelComparison.tex}
+\input{Conclusion.tex}
+
+\clearpage
+\input{Acknowledgement.tex}
+
+\clearpage
+
+\bibliographystyle{utphys}   % Remember we use title in the biblio
+\bibliography{bibliography.bib}
+
+%\bibliography{./bib/AlicePaper2016,./bib/ref_corrections,./bib/ref_d0reconstructionandselections,./bib/ref_datasampleandselection,./bib/ref_eventshapedefinitions,./bib/ref_experimentalsetup,./bib/ref_multiplicitydefinitions,./bib/ref_introduction,./bib/ref_systematics,biblio}
+
+
+\end{document}
